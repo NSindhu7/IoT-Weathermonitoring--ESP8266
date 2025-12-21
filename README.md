@@ -63,7 +63,6 @@ https://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 ### Step 2: Note Credentials
 Copy and paste these into your code:
-```cpp
 #define BLYNK_TEMPLATE_ID "TMPLxxxx"
 #define BLYNK_TEMPLATE_NAME "smart weather forecast"
 #define BLYNK_AUTH_TOKEN "Your_Auth_Token"
@@ -117,7 +116,14 @@ LDR Status	V4
 
 The circuit diagram is available in the `images/` folder.
 
----
+## 🚀 Future Improvements
+
+- Cloud data logging using Firebase / AWS IoT
+- Mobile notifications for extreme weather
+- Solar-powered operation
+- Data analytics and trend visualization
+- Integration with web dashboard
+
 
 ## 👤 Author
 
