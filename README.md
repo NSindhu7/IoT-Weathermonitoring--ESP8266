@@ -68,7 +68,7 @@ Copy and paste these into your code:
 #define BLYNK_TEMPLATE_NAME "smart weather forecast"
 #define BLYNK_AUTH_TOKEN "Your_Auth_Token"
 
-### Step 3: Create Datastreams****
+### **Step 3: Create Datastreams**
 Add these Virtual Pin Datastreams in the Blynk template:
 
 Datastream	Virtual Pin
@@ -80,36 +80,46 @@ LDR Status	V4
 
 ### **Step 4: Mobile Dashboard**
 
-1.Open Blynk Mobile App
-2.Add widgets (Gauge / Value Display)
-3.Assign widgets to:
-V0 → Temperature (°C)
-V1 → Humidity (%)
-V2 → Pressure (hPa)
-V3 → Rain Value
-V4 → LDR Status (0/1)
+1. Open **Blynk Mobile App**
+2. Add widgets (Gauge / Value Display)
+3. Assign widgets to:
+   - **V0** → Temperature (°C)
+   - **V1** → Humidity (%)
+   - **V2** → Pressure (hPa)
+   - **V3** → Rain Value
+   - **V4** → LDR Status (0/1)
 
-▶️ __Running the Project__
+---
 
-1.Open weather.ino
-2.Update WiFi credentials and Blynk credentials → upload code
-3.Select correct COM Port
-4.Open Serial Monitor (115200 baud)
-5.View live sensor data on Blynk App
+## ▶️ Running the Project
 
-🌦️ **Project Features**
+1. Open `weather.ino`
+2. Update **WiFi credentials** and **Blynk credentials**
+3. Upload the code to **NodeMCU ESP8266**
+4. Select the correct **COM Port**
+5. Open **Serial Monitor** (115200 baud)
+6. View live sensor data on the **Blynk App**
 
-Real-time temperature and humidity monitoring
-Atmospheric pressure monitoring
-Rain detection with servo motor control
-Day/Night detection using LDR
-LED alerts for threshold conditions
-Remote monitoring using Blynk IoT
+---
 
-🔌 Circuit Diagram
+## 🌦️ Project Features
 
-The circuit diagram is available in the images/ folder.
+- Real-time temperature and humidity monitoring  
+- Atmospheric pressure monitoring  
+- Rain detection with servo motor control  
+- Day/Night detection using LDR  
+- LED alerts for threshold conditions  
+- Remote monitoring using **Blynk IoT**
 
-### Author:
-Naseeb Sindhu
+---
+
+## 🔌 Circuit Diagram
+
+The circuit diagram is available in the `images/` folder.
+
+---
+
+## 👤 Author
+
+**Naseeb Sindhu**  
 B.Tech – Electronics & Communication Engineering
