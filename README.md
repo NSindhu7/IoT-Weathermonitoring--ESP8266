@@ -1,12 +1,12 @@
 # IoT Weather Monitoring System using ESP8266
 
-## 📌 Project Overview
+##  Project Overview
 This project is an IoT-based Weather Monitoring System developed using **NodeMCU (ESP8266)** and the **Blynk IoT platform**.  
 It monitors real-time environmental parameters and displays them remotely on a mobile dashboard.
 
 ---
 
-## 🔧 Hardware Components
+##  Hardware Components
 - NodeMCU ESP8266
 - DHT11 Temperature & Humidity Sensor
 - BMP085 Pressure Sensor
@@ -18,7 +18,7 @@ It monitors real-time environmental parameters and displays them remotely on a m
 
 ---
 
-## ⚙️ Software & Tools
+##  Software & Tools
 - Arduino IDE
 - Blynk IoT App
 - ESP8266 Board Package
@@ -26,7 +26,7 @@ It monitors real-time environmental parameters and displays them remotely on a m
 
 ---
 
-## 📚 Required Libraries (Arduino IDE)
+##  Required Libraries (Arduino IDE)
 
 Install the following libraries from **Arduino IDE → Library Manager**:
 
@@ -41,7 +41,7 @@ Install the following libraries from **Arduino IDE → Library Manager**:
 
 ---
 
-## 🔌 ESP8266 Board Setup
+##  ESP8266 Board Setup
 1. Open **Arduino IDE**
 2. Go to **File → Preferences**
 3. Add this URL in *Additional Board Manager URLs*:
@@ -54,7 +54,7 @@ https://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 ---
 
-## 📱 Blynk IoT Setup (Important)
+## Blynk IoT Setup (Important)
 
 ### Step 1: Create Template
 - Platform: **Blynk IoT**
@@ -90,7 +90,7 @@ LDR Status	V4
 
 ---
 
-## ▶️ Running the Project
+##  Running the Project
 
 1. Open `weather.ino`
 2. Update **WiFi credentials** and **Blynk credentials**
@@ -101,7 +101,7 @@ LDR Status	V4
 
 ---
 
-## 🌦️ Project Features
+##  Project Features
 
 - Real-time temperature and humidity monitoring  
 - Atmospheric pressure monitoring  
@@ -112,11 +112,18 @@ LDR Status	V4
 
 ---
 
-## 🔌 Circuit Diagram
 
-The circuit diagram is available in the `images/` folder.
 
-## 🚀 Future Improvements
+## Project Output
+
+### Circuit / Setup
+![Circuit Diagram](images/graph.jpeg)
+
+### Result
+![Output Result](images/result.jpeg)
+
+
+##  Future Improvements
 
 - Cloud data logging using Firebase / AWS IoT
 - Mobile notifications for extreme weather
